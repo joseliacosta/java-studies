@@ -8,13 +8,12 @@ public class ex1 {
 
     /*
 
-    Easiest exercise ever
+    Draw a horizontal line
+    Given a number n, print n asterisks on one line.
+    Example when n=8:
+    ********
 
-    Print one asterisk to the console.
-    Example:
-
-    *
-     */
+    */
 
         System.out.println("Enter the quantity of asterisk that you want: ");
         Scanner scanner = new Scanner(System.in);
