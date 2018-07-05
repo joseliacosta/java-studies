@@ -26,8 +26,5 @@ public class ex2 {
             System.out.println("Try a number greater than 0");
         }
 
-
-
-
     }
 }

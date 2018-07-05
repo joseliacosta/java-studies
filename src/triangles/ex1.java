@@ -14,7 +14,6 @@ public class ex1 {
     ********
 
     */
-
         System.out.println("Enter the quantity of asterisk that you want: ");
         Scanner scanner = new Scanner(System.in);
         int asteriskQtde = scanner.nextInt();
@@ -26,7 +25,6 @@ public class ex1 {
         } else {
             System.out.println("Try a number greater than 0");
         }
-
     }
 }
 
