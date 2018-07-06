@@ -23,7 +23,7 @@ public class ex3 {
                 for(int asterisks = 0; asterisks <= lines; asterisks++) {
                     System.out.print("*");
                 }
-                System.out.println("\n");
+                System.out.print("\n");
             }
         }
 
