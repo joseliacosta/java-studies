@@ -2,7 +2,7 @@ package diamonds;
 
 import java.util.Scanner;
 
-public class IsoscelesTriangle {
+public class Diamond {
     public static void main(String[] args) {
         System.out.println("Enter the height of your triangle: ");
         Scanner scanner = new Scanner(System.in);
@@ -10,6 +10,16 @@ public class IsoscelesTriangle {
 
         if(triangleHeight > 0) {
             for(int lines = 1; lines <= triangleHeight; lines++) {
+                for(int whiteSpace = 1; whiteSpace <= triangleHeight - lines; whiteSpace++){
+                    System.out.print(" ");
+                }
+
+                for(int asterisks = 1; asterisks <= ((lines*2)-1); asterisks++) {
+                    System.out.print("*");
+                }
+                System.out.print("\n");
+            }
+            for(int lines = triangleHeight-1; lines > 0; lines --){
                 for(int whiteSpace = 1; whiteSpace <= triangleHeight - lines; whiteSpace++){
                     System.out.print(" ");
                 }
